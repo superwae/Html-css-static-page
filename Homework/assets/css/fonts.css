@@ -1,0 +1,8 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(ArbFONTS-VEXA-thin-1.ttf);
+}
+@font-face {
+  font-family: headerFont;
+  src: url(ArbFONTS-Ubuntu-Arabic_B-1.ttf);
+}

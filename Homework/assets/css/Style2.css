@@ -1,0 +1,20 @@
+   * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color:#222233;
+      color:#AACCFF;
+   }
+
+
+p {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}

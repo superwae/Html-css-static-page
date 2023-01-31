@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        table, th, td {
+        }
+
+        table {
+            width: 100%;
+
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </td>
+                        <td>
+                        <label for="Email">Email</label>
+                        <input type="text" id="Email" name="Email" placeholder="Email..">
+                        <td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Phone">Phone Number</label>
+                        <input type="text" id="Phone" name="Phone" placeholder="Phone Number..">
+                    </td>
+                    <td>
+                        <p>Please select your sex:</p>
+                        <input type="radio" id="Male" name="sex" value="Male">
+                        <label for="Male">Male</label>
+                        <br>
+                        <input type="radio" id="Female" name="sex" value="Female">
+                        <label for="Female">Female</label>
+                        <br>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="City">City</label>
+                        <select id="City" name="City">
+                        <option value="Ramallah">Ramallah</option>
+                        <option value="Gaza">Gaza</option>
+                        <option Jericho="Bethlehem">Jericho</option>
+                        <option value="Nablus">Nablus</option>
+                        <option value="Hebron">Hebron</option>
+                        <option value="Tulkarm">Tulkarm</option>
+                        <option value="Jenin">Jenin</option>
+                        </select>
+                    </td>
+                    <td>
+                        <p>سبب للتواصل</p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="extra" name="extra" value="معلومات اضافية">
+                                    <label for="extra">معلومات اضافية</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" id="family" name="family" value=" استفسار عن عائلة ">
+                                    <label for="family"> استفسار عن عائلة </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="price" name="price" value="استفسار عن اسعار العقارات والاراضي">
+                                    <label for="price">استفسار عن اسعار العقارات والاراضي</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" id="famus" name="famus" value="استفسار عنشخصية معروفة ">
+                                    <label for="famus">استفسار عن شخصية معروفة </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="checkbox" id="other" name="other" value="اخري ">
+                                    <label for="other">اخري </label>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:65px"></textarea>
+                    </td>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
